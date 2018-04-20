@@ -13,7 +13,7 @@ def key_for_min_value(name_hash)
     end
 
     if less_or_equal.size == 1
-      name
+      return name
     end
 
   end
