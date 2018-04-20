@@ -11,7 +11,7 @@ names = []
 
     if
       (name_hash.each do |name_1, number_1|
-          if (number_1 <=> number) === 1 or name_1 == name
+          if (number_1 <=> number) == 1 or name_1 === name
             names<<name_1
           end
       end).size ==  #returns an array
