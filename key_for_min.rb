@@ -16,7 +16,7 @@ def key_for_min_value(name_hash)
         end
       end).size == 1 #returns an array
                    name
-  end # outputs a collection of arrays such that |name, number| => [array with numbers greater than or equal to number]
-
+     end # outputs a collection of arrays such that |name, number| => [array with numbers greater than or equal to number]
+  end
   #now i need to compare (keypair => [ >= number]) length and see which is greater
 end
