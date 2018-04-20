@@ -15,7 +15,7 @@ def key_for_min_value(name_hash)
     if less_or_equal.size == 1
       return name
     end
-    return nill if name_hash == []
-
   end
+
+  return nill if name_hash == []
 end
