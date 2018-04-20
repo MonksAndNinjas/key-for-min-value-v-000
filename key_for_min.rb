@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
     less_or_equal = []
 
     name_hash.each do |compare_name, compare_number|
-          if (number <=> compare_number) == 1 or compare_name === name
+          if (number <=> compare_number) == 1 or compare_name == name
             less_or_equal << compare_name
           end
     end
